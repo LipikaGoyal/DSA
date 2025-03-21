@@ -1,3 +1,4 @@
+
 class UnionFind {
     public:
         UnionFind(int n) {
@@ -68,8 +69,8 @@ class UnionFind {
                     minCost.push_back(connectedComponentMinCost[unionFind.find(origin)]);
                 }
             }
+        
             return minCost;
         }
     };
-
     
