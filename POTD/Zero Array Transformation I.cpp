@@ -1,3 +1,4 @@
+
 class Solution {
 public:
     static bool isZeroArray(vector<int>& nums, vector<vector<int>>& queries) {
